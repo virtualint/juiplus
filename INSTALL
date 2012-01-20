@@ -1,0 +1,17 @@
+INSTALL
+Add juiplus javascript files into your scripts folder
+Add juiplus styles into your styles folder 
+
+If you want to run demo site please add this to the index.php, inside of example folder.
+
+<link href="demo/demo.css" rel="stylesheet" type="text/css" />
+
+JuiPlus css files are added 
+<link href="styles/jquery.juiplus.css" rel="stylesheet" type="text/css" />
+<link href="styles/jquery.fcbk.css" rel="stylesheet" type="text/css" />
+
+Add the javascript files into your page
+<script type="text/javascript" language="javascript" src="javascript/jquery.js"></script>
+<script type="text/javascript" language="javascript" src="javascript/jquery.juiplus.js"></script>
+<script type="text/javascript" language="javascript" src="javascript/jquery.elastic.js"></script>
+<script type="text/javascript" language="javascript" src="javascript/jquery.fcbkcomplete.js"></script>

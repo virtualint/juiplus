@@ -1,0 +1,246 @@
+#popup_container {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	min-width: 300px; /* Dialog will be no smaller than this */
+	max-width: 600px; /* Dialog will wrap after this width */
+	background: #FFF;
+	border: solid 5px #999;
+	color: #000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#popup_title {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 1.75em;
+	color: #FFFFFF;
+	background-color: #6D84B4;
+	border: solid 1px #3B5998;
+	border-bottom: none 0px;
+	cursor: default;
+	padding: 0em;
+	padding-left: 10px;
+	margin: 0em;
+}
+
+#popup_content {
+	padding: 0px;
+	margin: 0px;
+	width: 300px;
+}
+
+#popup_content.alert {
+	width: 400px;
+}
+
+#popup_content.confirm {
+	width: 400px;
+}
+
+#popup_content.prompt {
+	width: 400px;
+}
+
+#popup_content.alemwindow {
+	padding: 0px 0px 0px 0px;
+	width: 400px;
+}
+
+#popup_message {
+	padding-left: 0px;
+}
+
+#popup_message_info {
+	padding: 0px 0px 0px 0px;
+}
+
+#popup_panel {
+	text-align: center;
+	margin: 1em 0em 0em 1em;
+}
+
+#popup_prompt {
+	margin: .5em 0em;
+}
+
+.jnodata {
+	color: #CC0000;
+	font-weight: bold;
+}
+
+.uiplus_dialog {
+	width: 380px;
+	padding: 10px 10px 10px 10px;
+}
+
+.juipluswindow {
+	width: 380px;
+	padding: 10px 10px 10px 10px;
+}
+
+.uiplus_dialog_title {
+	width: 100%;
+	color: #777777;
+}
+
+.uiplus_dialog_footer {
+	background-color: #F2F2F2;
+	float: right;
+	width: 100%;
+	height: 30px;
+	padding-top: 8px;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-top: 1px solid #CCCCCC;
+}
+
+.uiplus_dialog_buttons {
+	float: right;
+	padding-right: 6px;
+}
+
+#popup_content.alemdialog {
+	width: 400px;
+}
+
+#popup_content.aleminfo {
+	width: 400px;
+}
+
+#popup_content.messagedialog {
+	width: 600px;
+}
+
+#popup_content.suggestiondialog {
+	width: 600px;
+}
+
+#suggestion_window {
+	padding: 0;
+	margin: 0;
+	border: 1px solid #E0E0E0;
+	background-color: #E0E0E0;
+	display: block;
+	width: 100%;
+}
+
+#suggestion_window #friends {
+	list-style: none;
+	background-color: #FFFFFF;
+	border: 1px solid #C1C1C1;
+	overflow-x: hidden;
+	padding: 0px 3px 0px 3px;
+	background-attachment: scroll;
+	overflow-y: scroll;
+	height: 300px;
+	width: 580;
+	text-align: left;
+	margin: 0;
+}
+
+#suggestion_window_info {
+	height: 24px;
+	border-top: 1px solid #C1C1C1;
+	border-right: 1px solid #C1C1C1;
+	border-left: 1px solid #C1C1C1;
+}
+
+#suggestion_window_info #suggestion_count {
+	float: right;
+	height: 20px;
+}
+
+ul li.userinfo {
+	float: left;
+	height: 64px;
+	margin: 3px;
+	width: 170px;
+	overflow: hidden;
+}
+
+ul li.userinfo a {
+	display: block;
+	height: 56px;
+	padding: 4px;
+}
+
+ul li.userinfo a:hover {
+	display: block;
+	height: 56px;
+	padding: 4px;
+	background-color: #ECEFF5;
+}
+
+span.imageicon {
+	background-color: #FFFFFF;
+	background-attachment: scroll;
+	border: 1px solid #E0E0E0;
+	height: 50px;
+	width: 50px;
+	position: relative;
+	display: block;
+	margin-right: 4px;
+	padding: 2px;
+	float: left;
+}
+
+span.imageicon span {
+	height: 50px;
+	background-position: -738px -753px;
+	width: 50px;
+	display: block;
+	position: absolute;
+	background-repeat: no-repeat;
+	left: 2px;
+	top: 2px;
+}
+
+#suggestion_search {
+	height: 46px;
+	border-top: 1px solid #C1C1C1;
+	border-right: 1px solid #C1C1C1;
+	border-left: 1px solid #C1C1C1;
+}
+
+a.suggested_item {
+	display: block;
+	height: 56px;
+	padding: 4px;
+	background-color: #5B74A8;
+}
+
+strong.suggested_item {
+	color: #FFFFFF;
+}
+
+.suggestion_filter {
+	float: right;
+	display: block;
+	height: 100%;
+	width: 120px;
+}
+
+.infospan {
+	padding-top: 4px;
+	width: 70px;
+	padding-right: 4px;
+	display: block;
+	font-weight: bold;
+	color: #6774A8;
+	float: right;
+}
+
+#suggestion_paginate_list {
+	padding-right: 16px;
+	font-size: 12px;
+}
+
+#message_send_content
+{
+	width: 100%;
+	height: 100px;
+	max-height: 200px;
+}
